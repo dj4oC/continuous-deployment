@@ -20,4 +20,6 @@ This continuous deployment playbook assumes:
 1. run `export HCLOUD_API_TOKEN=...` with a valid Hetzner cloud api token
 1. run `export CLOUDFLARE_API_TOKEN=...` with a valid Cloudflare api token
 1. run `ansible-playbook playbook-all.yml`
-: export "HCLOUD_API_TOKEN= ... " && export "CLOUDFLARE_API_TOKEN= ... " && ansible-playbook playbook-all.yml
+
+ you can also combine all three commands: 
+  `export "HCLOUD_API_TOKEN= ... " && export "CLOUDFLARE_API_TOKEN= ... " && ansible-playbook playbook-all.yml`
